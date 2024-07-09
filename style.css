@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+/* primary styles */
+.btn-primary {
+  font-size: 20px;
+  padding: 18px 35px;
+  background: #fd6e0a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+section {
+  /* margin-top: 130px; */
+}
+
+/* header styles */
+header {
+  max-width: 1600px;
+  background-color: #fff8f3;
+  background-image: url("assets/images/developer.png"),
+    url("assets/images/header_bg.png");
+  background-position: left 20px center, right bottom;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 130px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 230px 0;
+}
+.nav-content h2 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.nav-content h2 span {
+  color: #fd6e0a;
+}
+.nav-content ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.nav-content ul li {
+  list-style: none;
+}
+.nav-content ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+}
+.person-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 230px;
+  margin-right: 38px;
+  align-items: end;
+}
+.person-info {
+  width: 585px;
+  margin: auto 0;
+}
+.person-info h4 {
+  font-size: 45px;
+  color: #474747;
+}
+.person-info h1 {
+  font-size: 85px;
+  font-weight: bold;
+}
+.person-info p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.person-info .contact-btn {
+  font-size: 20px;
+  padding: 18px 35px;
+  color: #fd6e0a;
+  background-color: #fff8f3;
+  font-weight: bold;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.person-image {
+  width: 584px;
+  margin-top: 47px;
+  margin-bottom: -5px;
+}
